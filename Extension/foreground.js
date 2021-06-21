@@ -1,6 +1,6 @@
 const video = document.querySelector('video');
 video.addEventListener('pause', (event) => {
-   // var timeIs = $('.ytp-time-current').innerHTML;
+//     var timeIs = $('.ytp-time-current')[0].innerHTML;
 var timeIs = document.getElementsByClassName('ytp-time-current')[0].innerHTML.replace(':','').replace(/^0+/, '');
 
  var xhttp = new XMLHttpRequest();
