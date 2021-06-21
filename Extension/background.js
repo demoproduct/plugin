@@ -1,4 +1,12 @@
 chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
+
+   chrome.scripting.executeScript({
+                    target: { tabId: tabId,  allFrames: true},
+                    files: ["./jquery-3.3.0.min.js"]
+                })
+                    .then(() => {
+                        console.log("INJECTED THE Jquery SCRIPT.");
+                    });
     if (changeInfo.status === 'complete' && /^http/.test(tab.url)) {
 
         chrome.scripting.insertCSS({
