@@ -1,33 +1,17 @@
 .ce_main {
-    width: 5px;
-    height: 5px;
-    display: flex;
+    width: 240px;
+    height: 510px;
+    display: none;
     flex-direction: column;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: right;
     position: absolute;
     z-index: 999999;
-    top: 20%;
-    left: 80%;
+    top: 46%;
+    left: 58%;
     transform: translate(-50%, -50%);
-
     color: white;
-    //background-color: red;
-}
-
-/*
-#ce_name {
-    font-size: 70px;
-}
-*/
-
-#ce_button {
-    padding: 30px 15px;
-    border-radius: 3px;
-
-    font-size: 10px;
-
-    background-color: black;
-
-    cursor: pointer;
+    background-color: #ffffff;
+    overflow-y: scroll;
+    opacity: .4;
 }
