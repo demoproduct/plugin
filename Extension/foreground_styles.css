@@ -1,5 +1,5 @@
 .ce_main {
-    width: 240px;
+    width: 200px;
     height: 510px;
     display: none;
     flex-direction: column;
@@ -8,10 +8,10 @@
     position: absolute;
     z-index: 999999;
     top: 46%;
-    left: 58%;
+    left: 60%;
     transform: translate(-50%, -50%);
     color: white;
     background-color: #ffffff;
     overflow-y: scroll;
-    opacity: .4;
+    /*opacity: .4;*/
 }
