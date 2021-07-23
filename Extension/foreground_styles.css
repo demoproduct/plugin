@@ -1,6 +1,6 @@
 .ce_main {
     width: 200px;
-    height: 510px;
+ /*   height: 510px;*/
     display: none;
     flex-direction: column;
     justify-content: space-evenly;
